@@ -1,0 +1,57 @@
+*{
+    box-sizing:border-box;
+}
+
+.heading{
+    display:flex;
+    justify-content:space-around;
+    margin-top:40px;
+    margin-left:200px;
+}
+header nav{
+    width:50%;
+    word-spacing:3em;
+    color:black;
+    vertical-align:right;
+    font-size:20px;
+}
+.links{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    word-spacing: 3em;
+    margin-right:170px;
+    margin-top:20px;
+    color:black;
+}
+.jumbo-about{
+   
+    width:60%;
+   
+}
+
+.top-contentabout{
+    margin-top:60px;
+    padding:20px;
+    font-size:80px;
+    border-bottom: 2px dotted black;
+}
+
+.topmiddle{
+    display:flex;
+    flex-direction:row;
+    flex-basis:45%;
+    height:400px;
+}
+.Strategy{
+    display:flex;
+    flex-direction:column;
+    flex-basis:45%;
+    width:400px;
+}
+.HowWW{
+    display:flex;
+    flex-direction:column;
+    flex-basis:45%;
+}
+
