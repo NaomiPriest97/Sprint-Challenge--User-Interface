@@ -1,3 +1,6 @@
+
+
+
 *{
     box-sizing:border-box;
 }
@@ -25,16 +28,24 @@ header nav{
     color:black;
 }
 .jumbo-about{
-   
-    width:60%;
-   
+    width:65%;
+    margin-left:250px;
+    margin-top:50px;
 }
-
+.container-about-page{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    height:600px;
+    flex:1;
+}
 .top-contentabout{
-    margin-top:60px;
+    margin-top:20px;
     padding:20px;
-    font-size:80px;
+    font-size:20px;
     border-bottom: 2px dotted black;
+    margin-left:250px;
+    margin-right:200px;
 }
 
 .topmiddle{
@@ -42,16 +53,57 @@ header nav{
     flex-direction:row;
     flex-basis:45%;
     height:400px;
+    justify-content:space-around;
+    padding:10px;
+    
 }
 .Strategy{
     display:flex;
     flex-direction:column;
     flex-basis:45%;
-    width:400px;
+    width:30%;
+    text-align:justify;
+    font-size:20px;
+    padding:20px;
+    margin:2px;
 }
 .HowWW{
     display:flex;
     flex-direction:column;
     flex-basis:45%;
+    text-align:justify;
+    font-size:20px;
+    width:30%;
+    padding:20px;
+    margin:2px;
 }
 
+.middle{
+    display:flex;
+    flex-direction:row;
+    flex-basis:45%;
+    height:400px;
+    justify-content:space-around;
+    padding:10px;
+    
+}
+.Places{
+    display:flex;
+    flex-direction:column;
+    flex-basis:45%;
+    text-align:justify;
+    font-size:20px;
+    width:30%;
+    padding:20px;
+    margin:2px;
+}
+.collab{
+    display:flex;
+    flex-direction:column;
+    flex-basis:45%;
+    text-align:justify;
+    font-size:20px;
+    width:30%;
+    padding:20px;
+    margin:2px; 
+}
