@@ -52,7 +52,6 @@ header nav{
     display:flex;
     flex-direction:row;
     flex-basis:45%;
-    height:400px;
     justify-content:space-around;
     padding:10px;
     
@@ -66,7 +65,9 @@ header nav{
     font-size:20px;
     padding:20px;
     margin:2px;
+    border-bottom:2px dotted black;
 }
+
 .HowWW{
     display:flex;
     flex-direction:column;
@@ -76,16 +77,18 @@ header nav{
     width:30%;
     padding:20px;
     margin:2px;
+    border-bottom:2px dotted black;
 }
+
+
 
 .middle{
     display:flex;
     flex-direction:row;
     flex-basis:45%;
-    height:400px;
     justify-content:space-around;
     padding:10px;
-    margin-top:75px;
+    margin-top:20px;
 }
 .Places{
     display:flex;
@@ -96,6 +99,7 @@ header nav{
     width:30%;
     padding:20px;
     margin:2px;
+    border-bottom:2px dotted black;
 }
 .collab{
     display:flex;
@@ -106,4 +110,21 @@ header nav{
     width:30%;
     padding:20px;
     margin:2px; 
+    border-bottom:2px dotted black;
+}
+button{
+    border:2px solid black;
+    border-radius: 20px;
+    height:40px;
+    width:150px;
+}
+
+.middle button{
+    border:2px solid black;
+    border-radius: 20px;
+    height:40px;
+    width:150px;
+}
+footer{
+    margin-top:75px;
 }
