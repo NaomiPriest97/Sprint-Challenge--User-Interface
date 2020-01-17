@@ -1,0 +1,157 @@
+
+
+
+*{
+    box-sizing:border-box;
+}
+
+.heading{
+    display:flex;
+    justify-content:space-around;
+    margin-top:40px;
+    margin-left:200px;
+}
+header nav{
+    width:50%;
+    word-spacing:3em;
+    color:black;
+    vertical-align:right;
+    font-size:20px;
+}
+.links{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    word-spacing: 3em;
+    margin-right:170px;
+    margin-top:20px;
+    color:black;
+}
+.jumbo-about{
+    width:65%;
+    margin-left:250px;
+    margin-top:50px;
+}
+.container-about-page{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    height:600px;
+    flex:1;
+}
+.top-contentabout{
+    margin-top:10px;
+    padding:10px;
+    font-size:20px;
+    border-bottom: 2px dotted black;
+    margin-left:250px;
+    margin-right:200px;
+}
+
+.topmiddle{
+    display:flex;
+    flex-direction:row;
+    flex-basis:45%;
+    justify-content:space-around;
+    padding:10px;
+    
+}
+.Strategy{
+    display:flex;
+    flex-direction:column;
+    flex-basis:45%;
+    width:30%;
+    text-align:justify;
+    font-size:20px;
+    padding:20px;
+    margin:2px;
+    border-bottom:2px dotted black;
+}
+
+.HowWW{
+    display:flex;
+    flex-direction:column;
+    flex-basis:45%;
+    text-align:justify;
+    font-size:20px;
+    width:30%;
+    padding:20px;
+    margin:2px;
+    border-bottom:2px dotted black;
+}
+
+
+
+.middle{
+    display:flex;
+    flex-direction:row;
+    flex-basis:45%;
+    justify-content:space-around;
+    padding:10px;
+    margin-top:20px;
+}
+.Places{
+    display:flex;
+    flex-direction:column;
+    flex-basis:45%;
+    text-align:justify;
+    font-size:20px;
+    width:30%;
+    padding:20px;
+    margin:2px;
+    border-bottom:2px dotted black;
+}
+.collab{
+    display:flex;
+    flex-direction:column;
+    flex-basis:45%;
+    text-align:justify;
+    font-size:20px;
+    width:30%;
+    padding:20px;
+    margin:2px; 
+    border-bottom:2px dotted black;
+}
+button{
+    border:2px solid black;
+    border-radius: 20px;
+    height:40px;
+    width:150px;
+}
+
+.middle button{
+    border:2px solid black;
+    border-radius: 20px;
+    height:40px;
+    width:150px;
+}
+footer{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    height:80px;
+    flex:1;
+} 
+
+.letsw{
+    font-size:20px;
+    margin-left:250px;
+    margin-right:200px;
+    margin-bottom:20px;
+}
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 2%;
+    font-size: 14px;
+    background-color:black;
+    width:100%;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    
+}
